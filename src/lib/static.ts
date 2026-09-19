@@ -64,7 +64,7 @@ export const createMousePositionValues = () => ({
 
 export const MOUSE_EASE = 0.04 * 1;
 // how far a flick is projected past the release point, in ms of travel
-export const FLICK_STRENGTH = 150 * 1.5;
+export const FLICK_STRENGTH = 150 * 3;
 // a finger that rests this long before lifting is not a flick
 export const FLICK_TIMEOUT = 100;
 export const VELOCITY_EASE = 0.3;
